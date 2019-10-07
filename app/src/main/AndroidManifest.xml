@@ -11,8 +11,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Units.U2"></activity>
         <activity android:name=".Units.U1" />
-        <activity android:name=".Splash" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

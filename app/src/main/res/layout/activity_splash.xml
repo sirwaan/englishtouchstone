@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/color_new_red"
     tools:context=".Splash">
+<TextView
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:textColor="@color/colorWhite"
+    android:textSize="36sp"
+    android:text="TouchStone 1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="15dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:textColor="@color/colorWhite"
+    android:textSize="22sp"
+    android:text="Audios"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:text="By Sirwan Rahimi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
