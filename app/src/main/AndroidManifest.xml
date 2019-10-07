@@ -11,8 +11,13 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Units.U2"></activity>
         <activity android:name=".Units.U1" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".Splash">
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+
+        </activity>
+        <activity android:name=".Splash"
+
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
