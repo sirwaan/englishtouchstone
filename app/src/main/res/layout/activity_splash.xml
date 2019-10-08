@@ -28,7 +28,7 @@
     android:layout_height="wrap_content"/>
 
     <TextView
-
+        android:fontFamily="sans-serif-light"
         android:layout_marginTop="15dp"
         android:textColor="@color/colorWhite"
         android:textSize="18sp"
