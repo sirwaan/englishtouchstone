@@ -1,18 +1,275 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_gravity="center"
+                    android:text="TouchStone 1"
+                    android:textColor="@color/color_new_red"
+                    android:textSize="36sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:text="All Audio books"
+                    android:textColor="@color/colorDarkGray"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <androidx.cardview.widget.CardView
+                    android:layout_margin="15dp"
+                    app:cardElevation="3dp"
+                    app:cardCornerRadius="18dp"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="28sp"
+                            android:textColor="@color/colorWhite"
+                            android:text="Unit One"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_margin="15dp"
+                    app:cardElevation="3dp"
+                    app:cardCornerRadius="18dp"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="28sp"
+                        android:textColor="@color/colorWhite"
+                        android:text="Unit Two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_margin="15dp"
+                    app:cardElevation="3dp"
+                    app:cardCornerRadius="18dp"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="28sp"
+                        android:textColor="@color/colorWhite"
+                        android:text="Unit Three"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_margin="15dp"
+                    app:cardElevation="3dp"
+                    app:cardCornerRadius="18dp"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="28sp"
+                        android:textColor="@color/colorWhite"
+                        android:text="Unit Four"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+                </androidx.cardview.widget.CardView>           <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="18dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="28sp"
+                    android:textColor="@color/colorWhite"
+                    android:text="Unit Five"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </androidx.cardview.widget.CardView>           <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="18dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="28sp"
+                    android:textColor="@color/colorWhite"
+                    android:text="Unit Six"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </androidx.cardview.widget.CardView>           <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="18dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="28sp"
+                    android:textColor="@color/colorWhite"
+                    android:text="Unit Seven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </androidx.cardview.widget.CardView>           <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="18dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="28sp"
+                    android:textColor="@color/colorWhite"
+                    android:text="Unit Eight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </androidx.cardview.widget.CardView>           <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="18dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="28sp"
+                    android:textColor="@color/colorWhite"
+                    android:text="Unit Nine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </androidx.cardview.widget.CardView>           <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="18dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="28sp"
+                    android:textColor="@color/colorWhite"
+                    android:text="Unit Ten"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </androidx.cardview.widget.CardView>           <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="18dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="28sp"
+                    android:textColor="@color/colorWhite"
+                    android:text="Unit Eleven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </androidx.cardview.widget.CardView>           <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="18dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="28sp"
+                    android:textColor="@color/colorWhite"
+                    android:text="Unit Twelve"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
