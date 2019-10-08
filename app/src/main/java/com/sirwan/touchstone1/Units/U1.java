@@ -12,5 +12,6 @@ public class U1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_u1);
+        //todo nobati awaya ka pageakani chak kam wa raw dabnam => databace daxli > upload la server
     }
 }

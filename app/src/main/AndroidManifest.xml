@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.sirwan.touchstone1">
-<uses-permission android:name="android.permission.INTERNET">
-</uses-permission>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,14 +11,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Units.U2"></activity>
+        <activity android:name=".Units.U10"></activity>
+        <activity android:name=".Units.U9" />
+        <activity android:name=".Units.U8" />
+        <activity android:name=".Units.U7" />
+        <activity android:name=".Units.U6" />
+        <activity android:name=".Units.U5" />
+        <activity android:name=".Units.U4" />
+        <activity android:name=".Units.U3" />
+        <activity android:name=".Units.U2" />
         <activity android:name=".Units.U1" />
-        <activity android:name=".MainActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
-
-        </activity>
-        <activity android:name=".Splash"
-
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name=".Splash"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

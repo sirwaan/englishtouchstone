@@ -5,10 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
 
         <ScrollView
@@ -16,259 +17,313 @@
             android:layout_height="match_parent">
 
             <LinearLayout
-                android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
                 <TextView
-                    android:layout_marginBottom="5dp"
-                    android:layout_marginTop="100dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginBottom="5dp"
                     android:text="TouchStone 1"
                     android:textColor="@color/color_new_red"
-                    android:textSize="36sp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:textSize="36sp" />
+
                 <TextView
-                    android:layout_marginBottom="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:layout_marginTop="5dp"
-                    android:layout_gravity="center"
-                    android:text="All Audio books"
+                    android:layout_marginBottom="20dp"
+                    android:text="Second Edition"
                     android:textColor="@color/colorDarkGray"
-                    android:textSize="12sp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-                <androidx.cardview.widget.CardView
-                    android:layout_margin="15dp"
-                    app:cardElevation="3dp"
-                    app:cardCornerRadius="18dp"
-                    app:cardBackgroundColor="@color/colorAccent"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                        <TextView
-                            android:layout_marginBottom="20dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:textSize="28sp"
-                            android:textColor="@color/colorWhite"
-                            android:text="Unit One"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
+                    android:textSize="12sp" />
 
-                </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
-                    android:layout_margin="15dp"
-                    app:cardElevation="3dp"
-                    app:cardCornerRadius="18dp"
-                    app:cardBackgroundColor="@color/colorAccent"
+                    android:id="@+id/go_to_u1"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="3dp">
 
                     <TextView
-                        android:layout_marginBottom="20dp"
-                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
                         android:gravity="center"
-                        android:textSize="28sp"
+                        android:text="Unit One"
                         android:textColor="@color/colorWhite"
+                        android:textSize="28sp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/go_to_u2"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="3dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
                         android:text="Unit Two"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:textColor="@color/colorWhite"
+                        android:textSize="28sp" />
 
                 </androidx.cardview.widget.CardView>
+
                 <androidx.cardview.widget.CardView
-                    android:layout_margin="15dp"
-                    app:cardElevation="3dp"
-                    app:cardCornerRadius="18dp"
-                    app:cardBackgroundColor="@color/colorAccent"
+                    android:id="@+id/go_to_u3"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="3dp">
+
                     <TextView
-                        android:layout_marginBottom="20dp"
-                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
                         android:gravity="center"
-                        android:textSize="28sp"
-                        android:textColor="@color/colorWhite"
                         android:text="Unit Three"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:textColor="@color/colorWhite"
+                        android:textSize="28sp" />
 
 
                 </androidx.cardview.widget.CardView>
+
                 <androidx.cardview.widget.CardView
-                    android:layout_margin="15dp"
-                    app:cardElevation="3dp"
-                    app:cardCornerRadius="18dp"
-                    app:cardBackgroundColor="@color/colorAccent"
+                    android:id="@+id/go_to_u4"
+
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="3dp">
+
                     <TextView
-                        android:layout_marginBottom="20dp"
-                        android:layout_marginTop="20dp"
-                        android:layout_gravity="center"
-                        android:gravity="center"
-                        android:textSize="28sp"
-                        android:textColor="@color/colorWhite"
-                        android:text="Unit Four"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:text="Unit Four"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="28sp" />
 
 
-                </androidx.cardview.widget.CardView>           <androidx.cardview.widget.CardView
-                android:layout_margin="15dp"
-                app:cardElevation="3dp"
-                app:cardCornerRadius="18dp"
-                app:cardBackgroundColor="@color/colorAccent"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_marginBottom="20dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:textSize="28sp"
-                    android:textColor="@color/colorWhite"
-                    android:text="Unit Five"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/go_to_u5"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="3dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:text="Unit Five"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="28sp" />
 
 
-            </androidx.cardview.widget.CardView>           <androidx.cardview.widget.CardView
-                android:layout_margin="15dp"
-                app:cardElevation="3dp"
-                app:cardCornerRadius="18dp"
-                app:cardBackgroundColor="@color/colorAccent"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_marginBottom="20dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:textSize="28sp"
-                    android:textColor="@color/colorWhite"
-                    android:text="Unit Six"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/go_to_u6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="3dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:text="Unit Six"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="28sp" />
 
 
-            </androidx.cardview.widget.CardView>           <androidx.cardview.widget.CardView
-                android:layout_margin="15dp"
-                app:cardElevation="3dp"
-                app:cardCornerRadius="18dp"
-                app:cardBackgroundColor="@color/colorAccent"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_marginBottom="20dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:textSize="28sp"
-                    android:textColor="@color/colorWhite"
-                    android:text="Unit Seven"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/go_to_u7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="3dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:text="Unit Seven"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="28sp" />
 
 
-            </androidx.cardview.widget.CardView>           <androidx.cardview.widget.CardView
-                android:layout_margin="15dp"
-                app:cardElevation="3dp"
-                app:cardCornerRadius="18dp"
-                app:cardBackgroundColor="@color/colorAccent"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_marginBottom="20dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:textSize="28sp"
-                    android:textColor="@color/colorWhite"
-                    android:text="Unit Eight"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/go_to_u8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="3dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:text="Unit Eight"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="28sp" />
 
 
-            </androidx.cardview.widget.CardView>           <androidx.cardview.widget.CardView
-                android:layout_margin="15dp"
-                app:cardElevation="3dp"
-                app:cardCornerRadius="18dp"
-                app:cardBackgroundColor="@color/colorAccent"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_marginBottom="20dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:textSize="28sp"
-                    android:textColor="@color/colorWhite"
-                    android:text="Unit Nine"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/go_to_u9"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="3dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:text="Unit Nine"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="28sp" />
 
 
-            </androidx.cardview.widget.CardView>           <androidx.cardview.widget.CardView
-                android:layout_margin="15dp"
-                app:cardElevation="3dp"
-                app:cardCornerRadius="18dp"
-                app:cardBackgroundColor="@color/colorAccent"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_marginBottom="20dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:textSize="28sp"
-                    android:textColor="@color/colorWhite"
-                    android:text="Unit Ten"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/go_to_u10"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="3dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:text="Unit Ten"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="28sp" />
 
 
-            </androidx.cardview.widget.CardView>           <androidx.cardview.widget.CardView
-                android:layout_margin="15dp"
-                app:cardElevation="3dp"
-                app:cardCornerRadius="18dp"
-                app:cardBackgroundColor="@color/colorAccent"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_marginBottom="20dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:textSize="28sp"
-                    android:textColor="@color/colorWhite"
-                    android:text="Unit Eleven"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/go_to_u"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="3dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:text="Unit Eleven"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="28sp" />
 
 
-            </androidx.cardview.widget.CardView>           <androidx.cardview.widget.CardView
-                android:layout_margin="15dp"
-                app:cardElevation="3dp"
-                app:cardCornerRadius="18dp"
-                app:cardBackgroundColor="@color/colorAccent"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_marginBottom="20dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:textSize="28sp"
-                    android:textColor="@color/colorWhite"
-                    android:text="Unit Twelve"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/go_to_u"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="3dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:text="Unit Twelve"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="28sp" />
 
 
-            </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
             </LinearLayout>
         </ScrollView>
     </LinearLayout>
